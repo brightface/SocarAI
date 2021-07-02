@@ -32,14 +32,14 @@ E-Mail:994885943@kookmin.ac.kr
 
 </div>
 <br/>
-csv_data를 data_set_input.py에 넣어 전처리 하여 얻어냅니다.</br>
+1) csv_data를 data_set_input.py에 넣어 전처리 하여 얻어냅니다.</br>
 <div align="center">
-<p><img src="/doc/Images/1.PNG"></p>
+<p><img src="/doc/Images/2.PNG"></p>
 
 </div>
 <br/>
-전처리 해서 얻어진 csv_data를 가지고 Lstm_train.py 에 넣어 결과를 얻어냅니다.</br>
-<p><img src="/doc/Images/2.PNG"></p>
+2) 전처리 해서 얻어진 csv_data를 가지고 Lstm_train.py 에 넣어 결과를 얻어냅니다.</br>
+<p><img src="/doc/Images/1.PNG"></p>
 
 
 <div align="center">
