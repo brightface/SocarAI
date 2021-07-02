@@ -29,17 +29,17 @@ E-Mail:994885943@kookmin.ac.kr
 
 ### 4. 사용법
 <div align="center">
-<p><img src="/doc/Images/RockPro64.jpg"></p>
+
 </div>
 <br/>
 csv_data를 data_set_input.py에 넣어 전처리 하여 얻어냅니다.</br>
 <div align="center">
-![1](https://user-images.githubusercontent.com/17923737/124292705-d62d5200-db90-11eb-9a12-623cfa71430c.PNG)
+<p><img src="/doc/Images/1.png"></p>
 
 </div>
 <br/>
 전처리 해서 얻어진 csv_data를 가지고 Lstm_train.py 에 넣어 결과를 얻어냅니다.</br>
-![2](https://user-images.githubusercontent.com/17923737/124292715-daf20600-db90-11eb-9fa1-a212d04f065c.PNG)
+<p><img src="/doc/Images/2.png"></p>
 
 
 <div align="center">
