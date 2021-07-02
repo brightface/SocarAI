@@ -1,77 +1,55 @@
-﻿<div align="center">
-<p><img src="/doc/Images/MDW.PNG"></p>
-</div>
+![image](https://user-images.githubusercontent.com/17923737/124292435-864e8b00-db90-11eb-9109-14281942bec2.png)
+
+
+### 1. 프로젝트 배경
+ 차량의 대수에 비례하여 매일 다수의 사고가 발생하고 있으며, 사고 영상을 찾기 위해 많은 노력이 필요하다. 
+ 영상을 수집 후 영상내 사고의 발생 지점을 찾아야 하는 노력이 필요하기 때문이다.
 <br/>
 
-https://github.com/kookmin-sw/2019-cap1-2019_22
-
-### 1. 프로젝트 소개
- 저희 M.Fi 팀은 WiFi CSI를 이용하여 사람의 동작 감지 서비스인 MDW(Motion Detecting WiFi)를 만드는 프로젝트 입니다.<br/>
-현재의 CCTV와 같은 광학적 감지장비는 시각적 제약이 있는 상황에서는 성능을 모두 발휘하기 어려울 뿐만 아니라 사생활<br/>
-침해라는 부작용을 가지고 있습니다. 반면 CSI를 이용한 감지 시스템은 WiFi 채널의 변화를 감지하여 사람의 상태를 파악하는<br/>
-기술이므로 시각적 제약이 없을 뿐 아니라 사생활 침해가 적다는 장점을 가지고 있습니다.<br/>
 
 
-### 2. 소개 영상
-
-<p align="center">
-<a href="https://www.youtube.com/embed/gBwz4oIDKAg"><img height="566" width="574" src="/doc/Images/MDW.PNG"></a>
-</p>
+### 2. 프로젝트 소개 
+사고 발생시차량과 차량이 충돌면 블랙박스가 크게 흔들린다. 블랙박스의 진동폭이 큰 데이터를 통하여 사고 시점을 검출한다. 블랙박스의 데이터를 입력하고 분류를 통해 충둘 카테고리의 데이터를 찾아이 시점으로 둘아간 후 시간에 따라 영상에서 사고 관련 영상을 찾다.
+	사고 영상을 찾는 인적 자원을 절약 할 수 있으며, 사고 시작 지점을 찾는 시간을 줄일 수 있다.
+<br/>
 
 ### 3. 팀 소개
 
-팀명: M.Fi(Motion Fi)
+팀명: Yolo
 <br/>
 <br/>
-팀장: 안재관<br/>
-E-Mail: ggstork@gmail.com<br/>
+팀장: 김용환<br/>
+E-Mail: brightface@me.com<br/>
 
-팀원: 김상원<br/> 
-E-Mail: gini0723@gmail.com<br/>
+팀원: 이옥걸<br/> 
+E-Mail:994885943@kookmin.ac.kr
+<br/>
 
-팀원: 김용환<br/>
-E-Mail: brightface@hanmail.net<br/>
 
-팀원: 이종호<br/>
-E-Mail: asqqwww1@gmail.com<br/>
 
 ### 4. 사용법
 <div align="center">
 <p><img src="/doc/Images/RockPro64.jpg"></p>
 </div>
 <br/>
- RockPro64를 이용하여 모듈을 소형합니다.</br>
-
+csv_data를 data_set_input.py에 넣어 전처리 하여 얻어냅니다.</br>
 <div align="center">
-<p><img src="/doc/Images/aws.jpg"></p>
+![1](https://user-images.githubusercontent.com/17923737/124292705-d62d5200-db90-11eb-9a12-623cfa71430c.PNG)
+
 </div>
 <br/>
-AP 에서 사람의 움직임이 감지되면 AWS(Amazoon Web Service) 로 알람을 전송합니다.</br>
-AWS 에서 알람을 수신 받으면 이 알람을 사용자의 Application 로 전송합니다.</br>
-이때 AWS는 Node.js 를 이용해서 개발합니다.</br>
+전처리 해서 얻어진 csv_data를 가지고 Lstm_train.py 에 넣어 결과를 얻어냅니다.</br>
+![2](https://user-images.githubusercontent.com/17923737/124292715-daf20600-db90-11eb-9fa1-a212d04f065c.PNG)
+
 
 <div align="center">
-<p><img src="/doc/Images/flutter.jpg"></p>
+
 </div>
 <br/>
-이때 알람을 수신받는 Application은 Flutter 를 이용해서 개발합니다.</br>
-언어는 Dart를 사용할 예정입니다.</br>
+</br>
 
  
  
 
 
-### 5. 기타
-
-### Abstract
-Team 'M.Fi' is using 'WiFi CSI' to make 'Motion Dectecting WiFi' called 'MDW'.<br/>
-Nowdays the device like 'CCTV' that based on optical, is can not working well when it have some visual restriction.
-And it also has side effect, like Privacy infringement.
-So we condsider different way of monitoring system. That was 'MDW'.
-We use two access point to recognize 'CSI'.
-The 'CSI' mean 'Channel State Information'. That include Wifi signal information such as amplitude, phase, and SNRdb.
-Using this way, system can detecting humen's movement.
-And because of it was based on radio signal , it have no side effect. Also free from the optical limit.<br/>
-
- User can know what happend in his own place at the outside of there. SO the user can use this system to prevent some danger stituation. And in emergency situation user can react fast and clearly.
 
