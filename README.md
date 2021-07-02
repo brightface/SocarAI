@@ -1,7 +1,4 @@
-﻿<div align="center">
-<p><img src="/doc/Images/MDW.PNG"></p>
-</div>
-<br/>
+![image](https://user-images.githubusercontent.com/17923737/124292435-864e8b00-db90-11eb-9109-14281942bec2.png)
 
 
 ### 1. 프로젝트 배경
@@ -25,7 +22,7 @@
 E-Mail: brightface@me.com<br/>
 
 팀원: 이옥걸<br/> 
-E-Mail:994885943
+E-Mail:994885943@kookmin.ac.kr
 <br/>
 
 
